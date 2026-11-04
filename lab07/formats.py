@@ -1,3 +1,4 @@
+U nano 9.2                                                                     lab07/formats.py
 """Перевод между форматами хранения данных: CSV, YAML (учебный), JSON."""
 
 import json
@@ -90,3 +91,4 @@ def merge_by_key(rows: list[dict], extra: dict, key: str = "id") -> list[dict]:
 def records_to_json(records: list[dict]) -> str:
     """Список словарей -> JSON (indent=2, sort_keys, ensure_ascii=False)."""
     return json.dumps(records, ensure_ascii=False, indent=2, sort_keys=True)
+
