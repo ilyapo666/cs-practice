@@ -84,3 +84,5 @@ transposed = table.T
 print("Форма numbers:", numbers.shape)
 print("Форма table:", table.shape)
 print("Форма transposed:", transposed.shape)
+
+
