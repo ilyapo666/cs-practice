@@ -32,3 +32,4 @@ def celsius_to_fahrenheit(values: list[float]) -> list[float]:
 
     arr = np.asarray(values)
     return (arr * 9 / 5 + 32).tolist()
+# Lab 09 completed: numpy vectors and arrays
